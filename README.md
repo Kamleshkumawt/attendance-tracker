@@ -1,8 +1,4 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-# Attendance Tracker (Expo)
+# Welcome to Attendance Tracker app 👋
 
 A cross-platform attendance and task tracker built with Expo and React Native. This repository contains an Expo Router-based app focused on simple attendance tracking, tasks, sticky notes, routines and local notifications.
 
@@ -147,9 +143,3 @@ For big changes (state management refactor, native module additions, etc.), open
 ## License & contact
 
 This project does not include an explicit license file. Add a `LICENSE` if you want to set terms.
-
-If you want changes to this documentation or specific deep dives into modules (e.g., expand docs for `lib/` notification flow), tell me which areas to expand.
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
