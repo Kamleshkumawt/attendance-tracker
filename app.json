@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "AttendanceTracker",
-    "slug": "AttendanceTracker",
+    "name": "Attendance Tracker",
+    "slug": "attendance-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "attendancetracker",
+    "scheme": "attendance-tracker",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,12 +14,12 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundImage": "./assets/images/android-icon-background.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sharwannsorganization.attendancetracker"
     },
     "web": {
       "output": "static",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e355e266-6dfe-4ab5-a8e7-0ec2cacd9d7" // EAS Project ID f
+      }
+    },
+    "owner": "sharwanns-organization"
   }
 }
